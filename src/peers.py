@@ -17,7 +17,7 @@ class KeepalivedPeers(Object):
 
     def on_keepalived_initialized(self, event):
         if not self.framework.model.unit.is_leader():
-            raise RuntimeError('The initial unit of a cluster must also be a leader.')
+            return
         # A workaround for LP: #1859769.
         if not self.is_joined:
             event.defer()
