@@ -4,3 +4,6 @@
 [submodule "mod/jinja"]
 	path = mod/jinja
 	url = https://github.com/pallets/jinja
+[submodule "mod/ops-interface-vrrp-parameters"]
+	path = mod/ops-interface-vrrp-parameters
+	url = https://github.com/dshcherb/ops-interface-vrrp-parameters
