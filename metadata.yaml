@@ -13,7 +13,7 @@ series:
 subordinate: true
 peers:
     keepalived-peers:
-        keepalived-peers
+        interface: keepalived-peers
 requires:
     juju-info:
         scope: container
